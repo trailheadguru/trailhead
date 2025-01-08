@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Trailhead",
+    "slug": "trailhead",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trailheadguruorg.trailhead"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.trailheadguruorg.trailhead"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "68302108-e87e-466a-a1cf-6add9e60913a"
+      }
+    },
+    "owner": "trailheadguru-org",
+    "updates": {
+      "url": "https://u.expo.dev/68302108-e87e-466a-a1cf-6add9e60913a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
